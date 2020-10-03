@@ -55,13 +55,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\P_Locomotion.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\E_LookAtPlayer.cs" />
-    <Compile Include="Assets\Scripts\P_Look.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
+    <Compile Include="Assets\Scripts\P_Locomotion.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\VIDE\Demos\Template\Template_UIManager.cs" />
     <Compile Include="Assets\VIDE\Demos\Localization\VIDEUIManager2.cs" />
     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEDemoPlayer.cs" />
@@ -69,15 +66,19 @@
     <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
     <Compile Include="Assets\VIDE\Demos\MultiInstances\VIDEUIManager3.cs" />
     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\QuestChartDemo.cs" />
+    <Compile Include="Assets\Scripts\E_LookAtPlayer.cs" />
     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\CylinderGuy.cs" />
     <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
+    <Compile Include="Assets\Scripts\P_Look.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\witchExample.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEUIManager1.cs" />
     <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
     <Compile Include="Assets\Scripts\VIDEPlayer.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\TriggerScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
