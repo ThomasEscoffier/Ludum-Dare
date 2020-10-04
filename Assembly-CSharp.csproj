@@ -81,6 +81,8 @@
     <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
     <Compile Include="Assets\Scripts\VIDEPlayer.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\UI_MainMenu.cs" />
+    <Compile Include="Assets\Scripts\UI_DebugFps.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
