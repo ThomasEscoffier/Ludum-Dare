@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - item
   - ItemHolder
+  - UIManager
   layers:
   - Default
   - TransparentFX

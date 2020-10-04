@@ -79,7 +79,7 @@ public class UIManager : MonoBehaviour
     }
 
     //This begins the conversation
-    void Begin(VIDE_Assign dialogue)
+    public void Begin(VIDE_Assign dialogue)
     {
         //Let's reset the NPC text variables
         NPC_Text.text = "";

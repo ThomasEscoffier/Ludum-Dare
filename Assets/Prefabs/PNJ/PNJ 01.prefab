@@ -91,7 +91,7 @@ MonoBehaviour:
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
   preload: 1
-  notuptodate: 0
+  notuptodate: 1
   startp: 1
   loadtag: 
   langs: []
@@ -596,6 +596,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NPC_ID: 5
+  winNode: 20
+  loseNode: 21
 --- !u!1 &1831767406201066230
 GameObject:
   m_ObjectHideFlags: 0
