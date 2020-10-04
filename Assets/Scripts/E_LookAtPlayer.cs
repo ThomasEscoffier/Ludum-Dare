@@ -17,10 +17,16 @@ public class E_LookAtPlayer : MonoBehaviour
     // Update is called once per frame
     private void Awake()
     {
+        m_target = GameObject.FindGameObjectWithTag("Player").transform;
         m_originRotation = Quaternion.identity;
     }
     void Update()
     {
+        if(m_target == null)
+        {
+            m_target = GameObject.FindGameObjectWithTag("Player").transform;
+        }
+
         m_isVisible = Physics.CheckSphere(m_entity.position, m_checkRadius, m_playerLayer);
 
         if (m_isVisible)

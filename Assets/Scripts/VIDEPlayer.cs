@@ -23,6 +23,7 @@ public class VIDEPlayer : MonoBehaviour
     //Crazy cap NPC in the demo has items you can collect
     public List<string> demo_Items = new List<string>();
     public List<string> demo_ItemInventory = new List<string>();
+    
 
     void OnTriggerEnter(Collider other)
     {
@@ -30,7 +31,7 @@ public class VIDEPlayer : MonoBehaviour
             inTrigger = other.GetComponent<VIDE_Assign>();
 
         nameNPC = other.gameObject.name;
-        Debug.Log(nameNPC);
+
     }
 
     void OnTriggerExit()

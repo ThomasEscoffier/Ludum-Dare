@@ -6,6 +6,8 @@ TagManager:
   tags:
   - AudioManager
   - NPC
+  - item
+  - ItemHolder
   layers:
   - Default
   - TransparentFX
