@@ -16,6 +16,8 @@ public class Sound
 
     public bool loop;
 
+    public bool CouldCrossfade;
+
     [HideInInspector]
     public AudioSource source;
 }

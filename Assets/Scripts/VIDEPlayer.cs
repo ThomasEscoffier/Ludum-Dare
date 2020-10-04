@@ -11,8 +11,10 @@ public class VIDEPlayer : MonoBehaviour
 
     //Reference to our diagUI script for quick access
     public UIManager diagUI;
+    public AudioManager audioManager;
     public QuestChartDemo questUI;
     public Animator blue;
+    private string nameNPC;
 
     //Stored current VA when inside a trigger
     public VIDE_Assign inTrigger;
@@ -26,15 +28,20 @@ public class VIDEPlayer : MonoBehaviour
     {
         if (other.GetComponent<VIDE_Assign>() != null)
             inTrigger = other.GetComponent<VIDE_Assign>();
+
+        nameNPC = other.gameObject.name;
+        Debug.Log(nameNPC);
     }
 
     void OnTriggerExit()
     {
         inTrigger = null;
+        nameNPC = null;
     }
 
     void Start()
     {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -45,17 +52,23 @@ public class VIDEPlayer : MonoBehaviour
         //Only allow player to move and turn if there are no dialogs loaded
         if (!VD.isActive)
         {
-            transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
-            float move = Input.GetAxisRaw("Vertical");
-            transform.position += transform.forward * 7 * move * Time.deltaTime;
-            if(blue != null)
-                blue.SetFloat("speed", move);
+            //transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
+            //float move = Input.GetAxisRaw("Vertical");
+            //transform.position += transform.forward * 7 * move * Time.deltaTime;
+            //if(blue != null)
+            //    blue.SetFloat("speed", move);
+
+            if (nameNPC != null && audioManager.musicPlayingName == nameNPC)
+            {
+                StartCoroutine(audioManager.Crossfade("Michel"));
+            }
         }
 
         //Interact with NPCs when pressing E
         if (Input.GetKeyDown(KeyCode.E))
         {
             TryInteract();
+
         }
 
         //Hide/Show cursor
@@ -67,6 +80,7 @@ public class VIDEPlayer : MonoBehaviour
             else
                 Cursor.lockState = CursorLockMode.Locked;
         }
+
     }
 
     //Casts a ray to see if we hit an NPC and, if so, we interact
@@ -77,6 +91,16 @@ public class VIDEPlayer : MonoBehaviour
         if (inTrigger)
         {
             diagUI.Interact(inTrigger);
+
+            if(audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive)
+            {
+                StartCoroutine(audioManager.Crossfade(nameNPC));
+            }
+            else if (audioManager.musicPlayingName == null)
+            {
+                audioManager.Play(nameNPC);
+            }
+
             return;
         }
 
@@ -99,6 +123,15 @@ public class VIDEPlayer : MonoBehaviour
             } else
             {
                 diagUI.Interact(assigned); //Begins interaction
+            }
+
+            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+            {
+                StartCoroutine(audioManager.Crossfade(nameNPC));
+            }
+            else if(audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+            {
+                audioManager.Play(nameNPC);
             }
         }
     }

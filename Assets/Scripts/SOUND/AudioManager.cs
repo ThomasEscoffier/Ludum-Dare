@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour
     public float soundDecrease = 0.1f;
     public float SceneNumber = 0;
     public float MusicLevel = 0;
+    public string musicPlayingName;
 
     private void Awake()
     {
@@ -43,7 +44,7 @@ public class AudioManager : MonoBehaviour
     {
         if (SceneNumber == 0)
         {
-            Play("MusicMenu");
+            Play("Michel");
         }
     }
 
@@ -51,39 +52,62 @@ public class AudioManager : MonoBehaviour
     {
         SceneNumber = SceneManager.GetActiveScene().buildIndex;
 
-        if (SceneNumber == 1)
-        {
-            StartCoroutine(FadeOut("MusicMenu"));
 
-            if (MusicLevel == 0)
-            { 
-            Play("Music1");
-                MusicLevel = 1;
-            }
+        #region debug
 
-        }
-        else if (SceneNumber == 4)
-        {
-            StartCoroutine(FadeOut("Music1"));
-            
+        //if (scenenumber == 1)
+        //{
+        //    startcoroutine(fadeout("musicmenu"));
 
-            if (MusicLevel == 1)
-            {
-                Play("Music2");
-                MusicLevel = 2;
-            }
-        }
-        else if (SceneNumber == 5)
-        {
-            StartCoroutine(FadeOut("Music2"));
+        //    if (musiclevel == 0)
+        //    { 
+        //    play("music1");
+        //        musiclevel = 1;
+        //    }
 
-            if (MusicLevel == 2)
-            {
-                Play("MusicEnd");
-                MusicLevel = 3;
-            }
-            
-        }
+        //}
+        //else if (scenenumber == 4)
+        //{
+        //    startcoroutine(fadeout("music1"));
+
+
+        //    if (musiclevel == 1)
+        //    {
+        //        play("music2");
+        //        musiclevel = 2;
+        //    }
+        //}
+        //else if (scenenumber == 5)
+        //{
+        //    startcoroutine(fadeout("music2"));
+
+        //    if (musiclevel == 2)
+        //    {
+        //        play("musicend");
+        //        musiclevel = 3;
+        //    }
+
+        //}
+
+        //Debug.Log(musicPlayingName);
+
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+
+
+        //    if(musicPlayingName == "Patrick")
+        //    {
+        //        StartCoroutine(Crossfade("Michel"));
+
+        //    }
+        //    else if(musicPlayingName == "Michel" || musicPlayingName == null)
+        //    {
+        //        if (musicPlayingName != null)
+        //            StartCoroutine(Crossfade("Patrick"));
+        //    }
+        //}
+
+        #endregion
     }
 
     public void Play(string name)
@@ -95,6 +119,9 @@ public class AudioManager : MonoBehaviour
             return;
         }
         s.source.Play();
+
+        if(s.CouldCrossfade)
+            musicPlayingName = name;
     }
 
     public IEnumerator FadeOut(string name)
@@ -106,6 +133,31 @@ public class AudioManager : MonoBehaviour
             s.source.volume -= soundDecrease;
             yield return new WaitForSeconds(0.1f);
         }
+    }
+
+
+    public IEnumerator Crossfade(string newMusic)
+    {
+        Sound sOld = Array.Find(sounds, sound => sound.name == musicPlayingName);
+        Sound sNew = Array.Find(sounds, sound => sound.name == newMusic);
+
+        sNew.source.volume = 0;
+        sNew.source.Play();
+        sNew.source.time = sOld.source.time;
+
+        while (sOld.source.volume > 0)
+        {
+            sNew.source.volume += soundDecrease;
+            sOld.source.volume -= soundDecrease;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        if (sNew.CouldCrossfade)
+            musicPlayingName = newMusic;
+
+        sOld.source.Stop();
+        sOld.source.volume = 1;
+       
     }
 
 

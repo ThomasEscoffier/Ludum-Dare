@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7892511371393643399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7892511371393643397}
+  - component: {fileID: 7892511371393643396}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7892511371393643397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892511371393643399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7892511371393643396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892511371393643399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14d8fc2f5bcaa7489ef8d5b7c6f4ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EntityPnj
+    clip: {fileID: 8300000, guid: ecdc1f186e023a64fbe8455aa92fff09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: EntityNPC
+    clip: {fileID: 8300000, guid: ecdc1f186e023a64fbe8455aa92fff09, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: Michel
+    clip: {fileID: 8300000, guid: 4bbbf3156ee53714f963c35d901e156d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: Jean
+    clip: {fileID: 8300000, guid: c7233dfafe130d849abf7ed8a50e4dab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: Louis
+    clip: {fileID: 8300000, guid: bf66f072b9574924ab4f0644c14d7ec5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  soundDecrease: 0.1
+  SceneNumber: 0
+  MusicLevel: 0
+  musicPlayingName: 

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8990339772035297510}
   - component: {fileID: 8990339772035297497}
   m_Layer: 0
-  m_Name: PNJ 05
-  m_TagString: Untagged
+  m_Name: PNJ 04
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
