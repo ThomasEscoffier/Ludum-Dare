@@ -10,6 +10,7 @@ public class PickUpSystem : MonoBehaviour
     private string itemSelected;
     private GameObject itemHolder;
     private string itemInPossession;
+    private VIDEPlayer playerAudio;
 
     public GameObject PickUpScreen;
     public Text PickUpText;
@@ -22,6 +23,7 @@ public class PickUpSystem : MonoBehaviour
 
     private void Start()
     {
+        playerAudio = gameObject.GetComponent<VIDEPlayer>();
         PickUpScreen.SetActive(false);
     }
 
@@ -96,6 +98,7 @@ public class PickUpSystem : MonoBehaviour
 
     void PickUpItem()
     {
+        playerAudio.audioManager.Play("PickUp");
         PickUpScreen.SetActive(false);
         itemInPossession = itemHolder.name;
         Destroy(itemHolder);
@@ -116,7 +119,7 @@ public class PickUpSystem : MonoBehaviour
 
     void DropItem()
     {
-
+        playerAudio.audioManager.Play("Toss");
         for (int i = 0; i < itemPrefabs.Length; i++)
         {
             if (itemPrefabs[i].gameObject.name == itemInPossession)
