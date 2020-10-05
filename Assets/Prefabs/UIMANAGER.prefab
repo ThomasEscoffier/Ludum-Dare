@@ -43,14 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e4bbcf5c210f64d9b1d027f7befbd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueContainer: {fileID: 0}
-  NPC_Container: {fileID: 0}
-  playerContainer: {fileID: 0}
-  itemPopUp: {fileID: 0}
-  NPC_Text: {fileID: 0}
-  NPC_label: {fileID: 0}
-  NPCSprite: {fileID: 0}
-  playerChoicePrefab: {fileID: 0}
-  playerSprite: {fileID: 0}
-  playerLabel: {fileID: 0}
+  dialogueContainer: {fileID: 1441289274794953058, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  NPC_Container: {fileID: 1441289276080253352, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  playerContainer: {fileID: 1441289274860586508, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  itemPopUp: {fileID: 1441289275535153054, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  NPC_Text: {fileID: 1441289275413986669, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  NPC_label: {fileID: 1441289276585108703, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  NPCSprite: {fileID: 1441289275198120625, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  playerChoicePrefab: {fileID: 1441289276007277116, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  playerSprite: {fileID: 1441289274986133096, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
+  playerLabel: {fileID: 1441289275703354859, guid: 9b571b53ef6a79443b0b2ea0e87c1397, type: 3}
   player: {fileID: 0}

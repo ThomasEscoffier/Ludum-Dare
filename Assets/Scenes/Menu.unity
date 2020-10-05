@@ -3061,3 +3061,164 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145767762}
   m_CullTransparentMesh: 0
+--- !u!4 &6327050185338585532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6327050185338585534}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6327050185338585533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6327050185338585534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14d8fc2f5bcaa7489ef8d5b7c6f4ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PNJ 02
+    clip: {fileID: 8300000, guid: bbbb7e76732358c47bce77657fcefdf9, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: PNJ 05
+    clip: {fileID: 8300000, guid: 103d7da7d345e7743a5b15b73183eb19, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: PNJ 11
+    clip: {fileID: 8300000, guid: e7a5bf0b51f81e4448a453a5176cd361, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: PNJ 13
+    clip: {fileID: 8300000, guid: f62a5cd90df14384c83e54e88c4e4401, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: PNJ 15
+    clip: {fileID: 8300000, guid: 07ff9cf5bce072746b8a3029fee24547, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: PNJ 20
+    clip: {fileID: 8300000, guid: 424f7ea86b1766e4f8edf37609b5f868, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: PNJ 21
+    clip: {fileID: 8300000, guid: 014b0b22899192a45b7ff8acf78aebb2, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: GOD
+    clip: {fileID: 8300000, guid: 4a36adc8b0177444fa2cc7a38030bdc4, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 20feb4356e26c5c449ca1568806823ce, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    CouldCrossfade: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 2e1c87bbe93b8d545be53a367ecd08ab, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: Success
+    clip: {fileID: 8300000, guid: f557a305d187f304b8e7b2e404e8d60b, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: Talk
+    clip: {fileID: 8300000, guid: 5ac849d3254945b4ebf2aaed11548b63, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: Run
+    clip: {fileID: 8300000, guid: 0b4e6d0efa151e745aaba37262a80e5b, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 0c3d8e1420d6b6c41acccbed3c3b33d2, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: Toss
+    clip: {fileID: 8300000, guid: c91d25235cbe93746bade8f74e435aeb, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  - name: Fail
+    clip: {fileID: 8300000, guid: 49595d6c36485724eb53bc92efe0e866, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    CouldCrossfade: 0
+    source: {fileID: 0}
+  soundDecrease: 0.1
+  SceneNumber: 0
+  MusicLevel: 0
+  musicPlayingName: 
+  musicVolume: 0.2
+--- !u!1 &6327050185338585534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6327050185338585532}
+  - component: {fileID: 6327050185338585533}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
