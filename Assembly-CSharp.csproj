@@ -93,6 +93,7 @@
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
      <None Include="Assets\VIDE\Demos\About.txt" />
      <None Include="Assets\VIDE\Export\Readme.txt" />
+     <None Include="Assets\VIDE\Export\GOD.txt" />
      <None Include="Assets\VIDE\Demos\MultiInstances\README.txt" />
      <None Include="Assets\VIDE\Demos\Localization\README.txt" />
      <None Include="Assets\VIDE\ReadMe.txt" />

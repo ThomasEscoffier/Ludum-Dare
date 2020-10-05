@@ -3,27 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using VIDE_Data;
 
+
 public class ItemNPCMatch : MonoBehaviour
 {
     private ItemDisplay itemInfo;
+    private VIDEPlayer player;
     public UIManager diagUI;
     public int NPC_ID;
     private VIDE_Assign dialogue;
+
     public int loseNode;
     public int winNode;
     public GameObject itemDetected;
-    private bool satisfied = false;
+    public bool satisfied = false;
+
 
     public bool itemDelivered = false;
 
     private void Start()
     {
         diagUI = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<VIDEPlayer>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(!satisfied)
+        
+
+        if (!satisfied)
         { 
             if (other.gameObject.CompareTag("item"))
             {
@@ -52,9 +59,10 @@ public class ItemNPCMatch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (itemDelivered)
+            if (itemDelivered && VD.isActive)
                 diagUI.CallNext();
         }
+
     }
 
     void Success()
@@ -64,6 +72,7 @@ public class ItemNPCMatch : MonoBehaviour
         //Debug.Log(VD.GetNodeCount(false));
         Destroy(itemDetected);
         satisfied = true;
+        player.satisfiedNPCCount++;
         itemDelivered = true;
         //Changement d'animation
     }
@@ -79,5 +88,4 @@ public class ItemNPCMatch : MonoBehaviour
 
         // Item Bounce back ?
     }
-
 }

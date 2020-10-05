@@ -1,0 +1,150 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: GOD
+---------------------------------
+#NODEID#
+0
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+Agent A236/A224. 
+---------------------------------
+#NODEID#
+1
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+We detected temporal anomalies. 
+---------------------------------
+#NODEID#
+2
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+It appears people from the 26th century are stuck, forced to live their last actions on loop. 
+---------------------------------
+#NODEID#
+3
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+After further inspections, it appears that Agent A236-A0223, your subordonate has gone rogue. 
+---------------------------------
+#NODEID#
+4
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+THEY WERE UNDER YOUR RESPONSABILITY ! 
+---------------------------------
+#NODEID#
+5
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+We are sending you to the 26th century. 
+---------------------------------
+#NODEID#
+6
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+Go fix their mess and undo their time paradoxes. 
+---------------------------------
+#NODEID#
+7
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+We will deal with them later.
+---------------------------------
+#NODEID#
+8
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+Great work Agent A236/A224. 
+---------------------------------
+#NODEID#
+9
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+We are pleased with your work. 
+---------------------------------
+#NODEID#
+10
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+Next step, we will have to find Agent A0236-A0223 and arrest them. 
+---------------------------------
+#NODEID#
+11
+#TAG#
+??????
+#ISPLAYER#
+False
+---
+#COMMENT#
+We want them alive ! 
+---------------------------------
+#NODEID#
+12
+#TAG#
+Baked Potato
+#ISPLAYER#
+False
+---
+#COMMENT#
+(It appears that we'll see you in our next game.)
+---------------------------------
+#NODEID#
+13
+#TAG#
+Baked Potato
+#ISPLAYER#
+False
+---
+#COMMENT#
+(Thank you for playing !)
+---------------------------------
+#END#

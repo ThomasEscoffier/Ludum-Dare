@@ -154,6 +154,10 @@ MonoBehaviour:
   playerName: Player
   diagUI: {fileID: 0}
   audioManager: {fileID: 0}
+  satisfiedNPCCount: 0
+  sceneCount: 3
+  NPCToWin: 4
+  winDialogue: {fileID: 0}
   inTrigger: {fileID: 0}
 --- !u!136 &7207481741990319695
 CapsuleCollider:

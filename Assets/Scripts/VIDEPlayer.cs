@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using VIDE_Data;
+using UnityEngine.SceneManagement;
 
 public class VIDEPlayer : MonoBehaviour
 {
@@ -14,10 +15,15 @@ public class VIDEPlayer : MonoBehaviour
     public AudioManager audioManager;
     private string nameNPC;
 
+    public int satisfiedNPCCount = 0;
+    public int sceneCount;
+    public int NPCToWin;
+    public VIDE_Assign winDialogue;
 
 
     //Stored current VA when inside a trigger
     public VIDE_Assign inTrigger;
+    private bool intro = true;
 
     //DEMO variables for item inventory
     //Crazy cap NPC in the demo has items you can collect
@@ -42,11 +48,20 @@ public class VIDEPlayer : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
     void Update()
     {
+        Debug.Log(satisfiedNPCCount);
 
+        if (intro)
+        {
+            intro = false;
+            StartCoroutine(audioManager.Crossfade("GOD")); 
+            nameNPC = "GOD";
+            diagUI.Interact(inTrigger);
+        }
         //Only allow player to move and turn if there are no dialogs loaded
         if (!VD.isActive)
         {
@@ -58,7 +73,7 @@ public class VIDEPlayer : MonoBehaviour
 
             if (nameNPC != null && audioManager.musicPlayingName == nameNPC)
             {
-                StartCoroutine(audioManager.Crossfade("Michel"));
+                StartCoroutine(audioManager.Crossfade("Theme"));
             }
         }
 
@@ -80,6 +95,40 @@ public class VIDEPlayer : MonoBehaviour
 
     }
 
+    public void WinCheck()
+    {
+        if (satisfiedNPCCount == NPCToWin)
+        {
+            Win();
+        }
+    }
+
+    public void GodEnd()
+    {
+        inTrigger = null;
+
+    }
+
+    void Win()
+    {
+        VD.EndDialogue();
+        winDialogue.overrideStartNode = 8;
+        diagUI.Begin(winDialogue);
+    }
+
+    public void Credits()
+    {
+        Debug.Log("BOOM TRANSITION END GAME");
+        StartCoroutine(Ending());
+       
+    }
+
+    IEnumerator Ending()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(sceneCount);
+    }
+
     //Casts a ray to see if we hit an NPC and, if so, we interact
     void TryInteract()
     {
@@ -89,7 +138,7 @@ public class VIDEPlayer : MonoBehaviour
         {
             diagUI.Interact(inTrigger);
 
-            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive)
+            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC)
             {
                 StartCoroutine(audioManager.Crossfade(nameNPC));
             }
@@ -122,11 +171,11 @@ public class VIDEPlayer : MonoBehaviour
                 diagUI.Interact(assigned); //Begins interaction
             }
 
-            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && nameNPC != null)
             {
                 StartCoroutine(audioManager.Crossfade(nameNPC));
             }
-            else if (audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+            else if (audioManager.musicPlayingName != nameNPC && nameNPC != null)
             {
                 audioManager.Play(nameNPC);
             }

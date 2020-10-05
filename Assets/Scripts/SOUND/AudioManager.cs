@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     public float SceneNumber = 0;
     public float MusicLevel = 0;
     public string musicPlayingName;
+    public float musicVolume;
 
     private void Awake()
     {
@@ -44,7 +45,10 @@ public class AudioManager : MonoBehaviour
     {
         if (SceneNumber == 0)
         {
-            Play("Michel");
+            Play("Intro");
+        }else if (SceneNumber >= 1)
+        {
+            Play("Theme");
         }
     }
 
@@ -148,23 +152,26 @@ public class AudioManager : MonoBehaviour
             sNew.source.Play();
             sNew.source.time = sOld.source.time;
 
-            while (sOld.source.volume > 0)
+            while (sOld.source.volume > 0 || sNew.source.volume < musicVolume)
             {
-            sNew.source.volume += soundDecrease;
-            sOld.source.volume -= soundDecrease;
-            yield return new WaitForSeconds(0.1f);
+                sNew.source.volume += soundDecrease;
+                sOld.source.volume -= soundDecrease;
+                yield return new WaitForSeconds(0.1f);
             }
+
+            sOld.source.volume = 0;
+            sNew.source.volume = musicVolume;
 
             if (sNew.CouldCrossfade)
                 musicPlayingName = newMusic;
 
             sOld.source.Stop();
-            sOld.source.volume = 1;
+            sOld.source.volume = musicVolume;
 
         }
         else
         {
-            Debug.Log("No music having this name");
+            Debug.Log("No music having this name" + newMusic);
         }
 
     }
