@@ -64,7 +64,6 @@ public class VIDEPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             TryInteract();
-
         }
 
         //Hide/Show cursor
@@ -88,7 +87,7 @@ public class VIDEPlayer : MonoBehaviour
         {
             diagUI.Interact(inTrigger);
 
-            if(audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive)
+            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive)
             {
                 StartCoroutine(audioManager.Crossfade(nameNPC));
             }
@@ -102,32 +101,33 @@ public class VIDEPlayer : MonoBehaviour
 
         /* If we are not in a trigger, try with raycasts */
 
-        //RaycastHit rHit;
+        RaycastHit rHit;
 
-        //if (Physics.Raycast(transform.position, transform.forward, out rHit, 2))
-        //{
-        //    //Lets grab the NPC's VIDE_Assign script, if there's any
-        //    VIDE_Assign assigned;
-        //    if (rHit.collider.GetComponent<VIDE_Assign>() != null)
-        //        assigned = rHit.collider.GetComponent<VIDE_Assign>();
-        //    else return;
+        if (Physics.Raycast(transform.position, transform.forward, out rHit, 2))
+        {
+            //Lets grab the NPC's VIDE_Assign script, if there's any
+            VIDE_Assign assigned;
+            if (rHit.collider.GetComponent<VIDE_Assign>() != null)
+                assigned = rHit.collider.GetComponent<VIDE_Assign>();
+            else return;
 
-        //    if (assigned.alias == "QuestUI")
-        //    {
+            if (assigned.alias == "QuestUI")
+            {
 
-        //    } else
-        //    {
-        //        diagUI.Interact(assigned); //Begins interaction
-        //    }
+            }
+            else
+            {
+                diagUI.Interact(assigned); //Begins interaction
+            }
 
-        //    if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
-        //    {
-        //        StartCoroutine(audioManager.Crossfade(nameNPC));
-        //    }
-        //    else if(audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
-        //    {
-        //        audioManager.Play(nameNPC);
-        //    }
-        //}
+            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+            {
+                StartCoroutine(audioManager.Crossfade(nameNPC));
+            }
+            else if (audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+            {
+                audioManager.Play(nameNPC);
+            }
+        }
     }
 }

@@ -342,18 +342,7 @@ public class VIDEUIManager1 : MonoBehaviour
                 }
 
             }
-        } else //Stuff we do right before the dialogue begins
-        {
-            //Get the item from CrazyCap to trigger this one on Charlie
-            if (dialogue.alias == "Charlie")
-            {
-                if (player.demo_ItemInventory.Count > 0 && dialogue.overrideStartNode == -1)
-                {
-                    dialogue.overrideStartNode = 16;
-                    return false;
-                }
-            }
-        }
+        } 
         return false;
     }
 

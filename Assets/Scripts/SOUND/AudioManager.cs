@@ -141,23 +141,32 @@ public class AudioManager : MonoBehaviour
         Sound sOld = Array.Find(sounds, sound => sound.name == musicPlayingName);
         Sound sNew = Array.Find(sounds, sound => sound.name == newMusic);
 
-        sNew.source.volume = 0;
-        sNew.source.Play();
-        sNew.source.time = sOld.source.time;
+        if(sNew != null)
+        { 
 
-        while (sOld.source.volume > 0)
-        {
+            sNew.source.volume = 0;
+            sNew.source.Play();
+            sNew.source.time = sOld.source.time;
+
+            while (sOld.source.volume > 0)
+            {
             sNew.source.volume += soundDecrease;
             sOld.source.volume -= soundDecrease;
             yield return new WaitForSeconds(0.1f);
+            }
+
+            if (sNew.CouldCrossfade)
+                musicPlayingName = newMusic;
+
+            sOld.source.Stop();
+            sOld.source.volume = 1;
+
+        }
+        else
+        {
+            Debug.Log("No music having this name");
         }
 
-        if (sNew.CouldCrossfade)
-            musicPlayingName = newMusic;
-
-        sOld.source.Stop();
-        sOld.source.volume = 1;
-       
     }
 
 

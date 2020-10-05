@@ -1,5 +1,124 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &342896123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827152650580042885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 14
+  loseNode: 1
+  winNode: 4
+  itemDetected: {fileID: 0}
+--- !u!114 &1395129652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124080067534626770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 21
+  loseNode: 3
+  winNode: 6
+  itemDetected: {fileID: 0}
+--- !u!114 &2944400447879105135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362690865613308331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 5
+  loseNode: 2
+  winNode: 4
+  itemDetected: {fileID: 0}
+--- !u!114 &79266660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4935681039362223169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 20
+  loseNode: 2
+  winNode: 5
+  itemDetected: {fileID: 0}
+--- !u!114 &950602483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5150357960342180155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 11
+  loseNode: 1
+  winNode: 4
+  itemDetected: {fileID: 0}
+--- !u!114 &1283555525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6595003127684758909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 16
+  loseNode: 2
+  winNode: 6
+  itemDetected: {fileID: 0}
+--- !u!114 &537270212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156825100391741877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 2
+  loseNode: 4
+  winNode: 7
+  itemDetected: {fileID: 0}
 --- !u!1 &7626182991118651965
 GameObject:
   m_ObjectHideFlags: 0
@@ -39,6 +158,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353066426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8204746949396732896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 15
+  loseNode: 1
+  winNode: 5
+  itemDetected: {fileID: 0}
+--- !u!114 &671079392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059058308505968507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diagUI: {fileID: 0}
+  NPC_ID: 13
+  loseNode: 4
+  winNode: 5
+  itemDetected: {fileID: 0}
 --- !u!1001 &2631729126831646671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90,6 +243,190 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: assignedIndex
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: assignedID
+      value: 99295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988118171388054412, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC20
+      objectReference: {fileID: 0}
     - target: {fileID: 6988118171388054414, guid: aca3458484cef684cae1fd929aface2c, type: 3}
       propertyPath: m_Name
       value: PNJ 20
@@ -108,6 +445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+--- !u!1 &4935681039362223169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6988118171388054414, guid: aca3458484cef684cae1fd929aface2c, type: 3}
+  m_PrefabInstance: {fileID: 2631729126831646671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4935681039362223181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6988118171388054402, guid: aca3458484cef684cae1fd929aface2c, type: 3}
@@ -123,6 +465,190 @@ PrefabInstance:
     - target: {fileID: 6430570971409455328, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
       propertyPath: m_Name
       value: PNJ 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: assignedIndex
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: assignedID
+      value: 68459
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430570971409455330, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC13
       objectReference: {fileID: 0}
     - target: {fileID: 6430570971409455331, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
       propertyPath: m_Size.x
@@ -182,6 +708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+--- !u!1 &9059058308505968507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6430570971409455328, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
+  m_PrefabInstance: {fileID: 2631729126930646939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9059058308505968503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6430570971409455340, guid: 35b0d9327416b574aa4aea55f5b42f7a, type: 3}
@@ -254,11 +785,200 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: assignedIndex
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: assignedID
+      value: 88498
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905344019804191, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
 --- !u!4 &8204746949396732900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6149905344019804189, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
+  m_PrefabInstance: {fileID: 2631729127107898361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8204746949396732896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6149905344019804185, guid: 9a0cc1b14eb224e479a3433058e5e23e, type: 3}
   m_PrefabInstance: {fileID: 2631729127107898361}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2631729127470928150
@@ -283,6 +1003,190 @@ PrefabInstance:
     - target: {fileID: 309676764194738365, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
       propertyPath: m_Name
       value: PNJ 05
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: assignedIndex
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: assignedID
+      value: 52128
+      objectReference: {fileID: 0}
+    - target: {fileID: 309676764194738366, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC5
       objectReference: {fileID: 0}
     - target: {fileID: 309676764194738367, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -342,6 +1246,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+--- !u!1 &2362690865613308331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 309676764194738365, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
+  m_PrefabInstance: {fileID: 2631729127470928150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2362690865613308329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 309676764194738367, guid: 5a7da0557cb7d3441be9bfc42caa0cba, type: 3}
@@ -369,6 +1278,190 @@ PrefabInstance:
     - target: {fileID: 9152422568790623297, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
       propertyPath: m_Size.z
       value: 2.1505065
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: assignedIndex
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: assignedID
+      value: 55999
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152422568790623298, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC16
       objectReference: {fileID: 0}
     - target: {fileID: 9152422568790623308, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -416,6 +1509,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+--- !u!1 &6595003127684758909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9152422568790623296, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
+  m_PrefabInstance: {fileID: 2631729127559133501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6595003127684758897 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9152422568790623308, guid: c3b6ee7ee761f3a4c9280bdbd3e56f9b, type: 3}
@@ -443,6 +1541,190 @@ PrefabInstance:
     - target: {fileID: 4179331812608226929, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
       propertyPath: m_Size.z
       value: 2.1505065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: assignedIndex
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: assignedID
+      value: 35606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179331812608226930, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC21
       objectReference: {fileID: 0}
     - target: {fileID: 4179331812608226940, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
       propertyPath: m_LocalPosition.x
@@ -490,6 +1772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+--- !u!1 &2124080067534626770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4179331812608226928, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
+  m_PrefabInstance: {fileID: 2631729127587260834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2124080067534626782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4179331812608226940, guid: f7e2214f4f78f1b469452d0193c7f709, type: 3}
@@ -558,12 +1845,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: assignedIndex
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: assignedID
+      value: 14885
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176853894700590817, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC2
+      objectReference: {fileID: 0}
     - target: {fileID: 5176853894700590818, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
       propertyPath: m_Name
       value: PNJ 02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+--- !u!1 &7156825100391741877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5176853894700590818, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
+  m_PrefabInstance: {fileID: 2631729127870898007}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7156825100391741879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5176853894700590816, guid: 7b29ef34756c3d748bc11f69d115fe7d, type: 3}
@@ -636,8 +1956,197 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: assignedIndex
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: assignedID
+      value: 38203
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458174495599055014, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+--- !u!1 &1827152650580042885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4458174495599055008, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
+  m_PrefabInstance: {fileID: 2631729128425911333}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1827152650580042881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4458174495599055012, guid: 7bf73b2c433c2f34e9808bee93ca8b15, type: 3}
@@ -710,8 +2219,197 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 2.1505065
       objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: S_playerDiags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: S_actionNodes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.size
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: startp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[0]
+      value: CommentModifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[1]
+      value: CrazyCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[2]
+      value: DEMO_Condition
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[3]
+      value: demo_Narration
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[4]
+      value: Example3Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[5]
+      value: Example4_dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[6]
+      value: Item_LookUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[7]
+      value: Laura
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[8]
+      value: MrCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[9]
+      value: NPC1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[10]
+      value: NPC10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[11]
+      value: NPC11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[12]
+      value: NPC12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[13]
+      value: NPC13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[14]
+      value: NPC14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[15]
+      value: NPC15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[16]
+      value: NPC16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[17]
+      value: NPC17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[18]
+      value: NPC18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[19]
+      value: NPC19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[20]
+      value: NPC2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[21]
+      value: NPC20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[22]
+      value: NPC21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[23]
+      value: NPC22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[24]
+      value: NPC23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[25]
+      value: NPC24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[26]
+      value: NPC25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[27]
+      value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[28]
+      value: NPC4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[29]
+      value: NPC5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[30]
+      value: NPC6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[31]
+      value: NPC7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[32]
+      value: NPC8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[33]
+      value: NPC9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[34]
+      value: NPCOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[35]
+      value: QuestChartDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[36]
+      value: TriggeredDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: diags.Array.data[37]
+      value: Witch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: assignedIndex
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: assignedID
+      value: 18517
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204766493368997690, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+      propertyPath: assignedDialogue
+      value: NPC11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+--- !u!1 &5150357960342180155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7204766493368997688, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}
+  m_PrefabInstance: {fileID: 2631729128657143299}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5150357960342180135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7204766493368997668, guid: 4f66aa862a5f902409f5351f6df58250, type: 3}

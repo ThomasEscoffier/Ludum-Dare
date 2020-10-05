@@ -9,23 +9,14 @@ public class ItemNPCMatch : MonoBehaviour
     public UIManager diagUI;
     public int NPC_ID;
     private VIDE_Assign dialogue;
-    public int winNode;
     public int loseNode;
+    public int winNode;
     public GameObject itemDetected;
     private bool satisfied = false;
 
     private void Start()
     {
         diagUI = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
-    }
-
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            if (VD.isActive)
-                diagUI.CallNext();
-        }
     }
 
     private void OnTriggerEnter(Collider other)

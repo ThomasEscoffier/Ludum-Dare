@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
     bool animatingText = false; //Will help us know when text is currently being animated
 
     //Reference to the player script
-    public VIDEPlayer player;
+    public VIDEDemoPlayer player;
 
     //We'll be using this to store references of the current player choices
     private List<Text> currentChoices = new List<Text>();
@@ -53,11 +53,11 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
-       // VD.LoadDialogues(); //Load all dialogues to memory so that we dont spend time doing so later
+        //VD.LoadDialogues(); //Load all dialogues to memory so that we dont spend time doing so later
         //An alternative to this can be preloading dialogues from the VIDE_Assign component!
 
         //Loads the saved state of VIDE_Assigns and dialogues.
-        VD.LoadState("VIDEDEMOScene1", true);
+        //VD.LoadState("VIDEDEMOScene1", true);
     }
 
     //This begins the dialogue and progresses through it (Called by VIDEDemoPlayer.cs)
@@ -72,10 +72,11 @@ public class UIManager : MonoBehaviour
         if (!VD.isActive)
         {
             Begin(dialogue);
-        } else
+        }
+        else
         {
             CallNext();
-        }      
+        }
     }
 
     //This begins the conversation
@@ -106,9 +107,10 @@ public class UIManager : MonoBehaviour
         if (animatingText) { CutTextAnim(); return; }
 
         if (!dialoguePaused) //Only if
-        {       
+        {
             VD.Next(); //We call the next node and populate nodeData with new data. Will fire OnNodeChange.
-        } else
+        }
+        else
         {
             //Disable item popup and disable pause
             if (itemPopUp.activeSelf)
@@ -116,7 +118,7 @@ public class UIManager : MonoBehaviour
                 dialoguePaused = false;
                 itemPopUp.SetActive(false);
             }
-        }   
+        }
     }
 
     //Input related stuff (scroll through player choices and update highlight)
@@ -247,7 +249,7 @@ public class UIManager : MonoBehaviour
             newOp.GetComponent<UnityEngine.UI.Text>().text = choices[i];
             newOp.SetActive(true);
 
-            currentChoices.Add(newOp.GetComponent<UnityEngine.UI.Text>()); 
+            currentChoices.Add(newOp.GetComponent<UnityEngine.UI.Text>());
         }
     }
 
@@ -275,7 +277,7 @@ public class UIManager : MonoBehaviour
         VD.OnNodeChange -= UpdateUI;
         VD.OnEnd -= EndDialogue;
         if (dialogueContainer != null)
-        dialogueContainer.SetActive(false);
+            dialogueContainer.SetActive(false);
         VD.EndDialogue();
     }
 
@@ -313,16 +315,16 @@ public class UIManager : MonoBehaviour
 
                         //If it's CrazyCap, check his stock before continuing
                         //If out of stock, change override start node
-                        //if (VD.assigned.alias == "CrazyCap")
-                        //    if ((int)data.extraVars["item"] + 1 >= player.demo_Items.Count)
-                        //        VD.assigned.overrideStartNode = 28;
+                        if (VD.assigned.alias == "CrazyCap")
+                            if ((int)data.extraVars["item"] + 1 >= player.demo_Items.Count)
+                                VD.assigned.overrideStartNode = 28;
 
 
-                        //if (!player.demo_ItemInventory.Contains(player.demo_Items[(int)data.extraVars["item"]]))
-                        //{
-                        //    GiveItem((int)data.extraVars["item"]);
-                        //    return true;
-                        //}
+                        if (!player.demo_ItemInventory.Contains(player.demo_Items[(int)data.extraVars["item"]]))
+                        {
+                            GiveItem((int)data.extraVars["item"]);
+                            return true;
+                        }
                     }
                 }
             }
@@ -341,17 +343,6 @@ public class UIManager : MonoBehaviour
                     }
                 }
 
-            }
-        } else //Stuff we do right before the dialogue begins
-        {
-            //Get the item from CrazyCap to trigger this one on Charlie
-            if (dialogue.alias == "Charlie")
-            {
-                //if (player.demo_ItemInventory.Count > 0 && dialogue.overrideStartNode == -1)
-                //{
-                //    dialogue.overrideStartNode = 16;
-                //    return false;
-                //}
             }
         }
         return false;
@@ -391,8 +382,8 @@ public class UIManager : MonoBehaviour
         if (data.comments[data.commentIndex].Contains("[NAME]"))
             data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[NAME]", VD.assigned.gameObject.name);
 
-        //if (data.comments[data.commentIndex].Contains("[WEAPON]"))
-        //    data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[WEAPON]", player.demo_ItemInventory[0].ToLower());
+        if (data.comments[data.commentIndex].Contains("[WEAPON]"))
+            data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[WEAPON]", player.demo_ItemInventory[0].ToLower());
     }
 
     #endregion
@@ -415,10 +406,10 @@ public class UIManager : MonoBehaviour
     //Adds item to demo inventory, shows item popup, and pauses dialogue
     void GiveItem(int itemIndex)
     {
-        //player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
+        player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
         itemPopUp.SetActive(true);
-        //string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
-        //itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
+        string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
+        itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
         dialoguePaused = true;
     }
 
@@ -470,7 +461,7 @@ public class UIManager : MonoBehaviour
 
     #endregion
 
-	//Utility note: If you're on MonoDevelop. Go to Tools > Options > General and enable code folding.
-	//That way you can exapnd and collapse the regions and methods
+    //Utility note: If you're on MonoDevelop. Go to Tools > Options > General and enable code folding.
+    //That way you can exapnd and collapse the regions and methods
 
 }

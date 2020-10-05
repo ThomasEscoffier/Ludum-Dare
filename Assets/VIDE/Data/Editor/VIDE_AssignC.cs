@@ -42,7 +42,7 @@ public class VIDE_AssignC : Editor
         path = Directory.GetParent(path).ToString();
         path = Directory.GetParent(path).ToString();
 
-        loadFiles();
+        //loadFiles();
     }
 
     bool HasUniqueID(int id, string[] saveNames, int currentDiag)
@@ -417,26 +417,26 @@ public class VIDE_AssignC : Editor
     //Refresh dialogue list
     public void loadFiles()
     {
-        AssetDatabase.Refresh();
-        d = (VIDE_Assign)target;
+        //AssetDatabase.Refresh();
+        //d = (VIDE_Assign)target;
 
-        TextAsset[] files = Resources.LoadAll<TextAsset>("Dialogues");
-        d.diags = new List<string>();
-        fullPaths = new List<string>();
+        //TextAsset[] files = Resources.LoadAll<TextAsset>("Dialogues");
+        //d.diags = new List<string>();
+        //fullPaths = new List<string>();
 
-        if (files.Length < 1) return;
+        //if (files.Length < 1) return;
 
-        foreach (TextAsset f in files)
-        {
-            d.diags.Add(f.name);
-            fullPaths.Add(AssetDatabase.GetAssetPath(f));
-        }
+        //foreach (TextAsset f in files)
+        //{
+        //    d.diags.Add(f.name);
+        //    fullPaths.Add(AssetDatabase.GetAssetPath(f));
+        //}
 
-        d.diags.Sort();
+        //d.diags.Sort();
 
-        //Lets make sure we still have the right file
-        IDCheck();
-        Repaint();
+        ////Lets make sure we still have the right file
+        //IDCheck();
+        //Repaint();
 
     }
 
