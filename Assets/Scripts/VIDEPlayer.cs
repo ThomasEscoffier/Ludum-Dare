@@ -105,6 +105,8 @@ public class VIDEPlayer : MonoBehaviour
     public void GodEnd()
     {
         inTrigger = null;
+        
+       // VD.EndDialogue();
 
     }
 

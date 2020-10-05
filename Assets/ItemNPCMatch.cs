@@ -11,6 +11,7 @@ public class ItemNPCMatch : MonoBehaviour
     public UIManager diagUI;
     public int NPC_ID;
     private VIDE_Assign dialogue;
+    private Animator animatorNPC;
 
     public int loseNode;
     public int winNode;
@@ -22,8 +23,10 @@ public class ItemNPCMatch : MonoBehaviour
 
     private void Start()
     {
+
         diagUI = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<VIDEPlayer>();
+        animatorNPC = gameObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -68,6 +71,10 @@ public class ItemNPCMatch : MonoBehaviour
     void Success()
     {
         player.audioManager.Play("Success");
+
+        if(animatorNPC != null)
+            animatorNPC.SetBool("Cured", true);
+
         dialogue.overrideStartNode = winNode;
         diagUI.Begin(dialogue);
         //Debug.Log(VD.GetNodeCount(false));

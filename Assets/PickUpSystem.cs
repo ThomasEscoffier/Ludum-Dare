@@ -15,6 +15,7 @@ public class PickUpSystem : MonoBehaviour
     public GameObject PickUpScreen;
     public Text PickUpText;
     private ItemDisplay itemInfos;
+    public GameObject patate;
 
     public GameObject spawner;
     public GameObject[] itemsInHand;
@@ -141,4 +142,13 @@ public class PickUpSystem : MonoBehaviour
         itemSelected = null;
         itemHolder = null;
     }
+
+    public void SpawnPatate()
+    {
+
+        Instantiate(patate, (spawner.transform.position), spawner.transform.rotation);
+         
+    }
+
+
 }

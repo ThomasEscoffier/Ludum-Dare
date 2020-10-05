@@ -355,7 +355,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 27
+  assignedIndex: 30
   assignedID: 29435
   assignedDialogue: NPC3
   interactionCount: 0
@@ -682,9 +682,9 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 18
-  assignedID: 88498
-  assignedDialogue: NPC15
+  assignedIndex: 19
+  assignedID: 55999
+  assignedDialogue: NPC16
   interactionCount: 0
   alias: 
   overrideStartNode: -1
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 18
+  assignedIndex: 21
   assignedID: 26800
   assignedDialogue: NPC18
   interactionCount: 0
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 23
+  assignedIndex: 26
   assignedID: 87368
   assignedDialogue: NPC22
   interactionCount: 0
@@ -1398,7 +1398,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 17
+  assignedIndex: 20
   assignedID: 13307
   assignedDialogue: NPC17
   interactionCount: 0
@@ -3931,7 +3931,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 33
+  assignedIndex: 36
   assignedID: 41883
   assignedDialogue: NPC9
   interactionCount: 0
@@ -4134,7 +4134,7 @@ MonoBehaviour:
   assignedIndex: 7
   assignedID: 32729
   assignedDialogue: GOD
-  interactionCount: 5
+  interactionCount: 2
   alias: 
   overrideStartNode: -1
   defaultNPCSprite: {fileID: 0}
@@ -4600,7 +4600,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 26
+  assignedIndex: 29
   assignedID: 36852
   assignedDialogue: NPC25
   interactionCount: 0
@@ -5124,9 +5124,9 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 18
-  assignedID: 88498
-  assignedDialogue: NPC15
+  assignedIndex: 19
+  assignedID: 55999
+  assignedDialogue: NPC16
   interactionCount: 0
   alias: 
   overrideStartNode: -1
@@ -5371,7 +5371,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 28
+  assignedIndex: 31
   assignedID: 75607
   assignedDialogue: NPC4
   interactionCount: 0
@@ -5599,7 +5599,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 30
+  assignedIndex: 33
   assignedID: 53266
   assignedDialogue: NPC6
   interactionCount: 0
@@ -5732,7 +5732,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 32
+  assignedIndex: 35
   assignedID: 62176
   assignedDialogue: NPC8
   interactionCount: 0
@@ -6808,7 +6808,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 12
+  assignedIndex: 15
   assignedID: 87559
   assignedDialogue: NPC12
   interactionCount: 0
@@ -6941,7 +6941,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 19
+  assignedIndex: 22
   assignedID: 1480
   assignedDialogue: NPC19
   interactionCount: 0
@@ -7264,7 +7264,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 31
+  assignedIndex: 34
   assignedID: 22233
   assignedDialogue: NPC7
   interactionCount: 0
@@ -7496,9 +7496,9 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 18
-  assignedID: 88498
-  assignedDialogue: NPC15
+  assignedIndex: 19
+  assignedID: 55999
+  assignedDialogue: NPC16
   interactionCount: 0
   alias: 
   overrideStartNode: -1
@@ -7743,7 +7743,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 24
+  assignedIndex: 27
   assignedID: 3326
   assignedDialogue: NPC23
   interactionCount: 0
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 25
+  assignedIndex: 28
   assignedID: 81826
   assignedDialogue: NPC24
   interactionCount: 0
@@ -8916,11 +8916,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3708709716681768818, guid: 76374d998b1797942b74e755a0e59914, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7770033832527195752, guid: 76374d998b1797942b74e755a0e59914, type: 3}
       propertyPath: m_Text
-      value: Press F to pick up a <color=yellow>Book</color>!
+      value: Press F to pick up a <color=yellow>Potato</color>!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76374d998b1797942b74e755a0e59914, type: 3}
