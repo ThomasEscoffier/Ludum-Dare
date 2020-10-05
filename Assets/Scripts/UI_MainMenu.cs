@@ -8,7 +8,7 @@ public class UI_MainMenu : MonoBehaviour
 {
     public int m_nextScene;
 
-    public GameObject ui_main, ui_opt, ui_debug;
+    public GameObject ui_main, ui_opt;
 
     bool m_isFullscreen;
 
@@ -20,11 +20,11 @@ public class UI_MainMenu : MonoBehaviour
     }
     public void F_Start()
     {
-        Debug.Log("start");
+        SceneManager.LoadScene(m_nextScene);
     }
     public void F_Quit()
     {
-        Debug.Log("quit");
+        Application.Quit();
     }
     public void F_Opt()
     {
@@ -48,15 +48,5 @@ public class UI_MainMenu : MonoBehaviour
     public void F_LowQ()
     {
         QualitySettings.SetQualityLevel(1, m_isFullscreen);
-    }
-    public void F_Debug(bool debug)
-    {
-        if (debug)
-        {
-            ui_debug.SetActive(true);
-        } else
-        {
-            ui_debug.SetActive(false);
-        }
     }
 }
