@@ -14,6 +14,8 @@ public class ItemNPCMatch : MonoBehaviour
     public GameObject itemDetected;
     private bool satisfied = false;
 
+    public bool itemDelivered = false;
+
     private void Start()
     {
         diagUI = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
@@ -42,6 +44,18 @@ public class ItemNPCMatch : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        itemDelivered = false;
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (itemDelivered)
+                diagUI.CallNext();
+        }
+    }
 
     void Success()
     {
@@ -50,7 +64,7 @@ public class ItemNPCMatch : MonoBehaviour
         //Debug.Log(VD.GetNodeCount(false));
         Destroy(itemDetected);
         satisfied = true;
-
+        itemDelivered = true;
         //Changement d'animation
     }
 
@@ -60,7 +74,7 @@ public class ItemNPCMatch : MonoBehaviour
         dialogue.overrideStartNode = loseNode;
         diagUI.Begin(dialogue);
         satisfied = false;
-
+        itemDelivered = true;
         //Debug.Log(VD.GetNodeCount(false));
 
         // Item Bounce back ?

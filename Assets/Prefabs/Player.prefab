@@ -154,11 +154,7 @@ MonoBehaviour:
   playerName: Player
   diagUI: {fileID: 0}
   audioManager: {fileID: 0}
-  questUI: {fileID: 0}
-  blue: {fileID: 0}
   inTrigger: {fileID: 0}
-  demo_Items: []
-  demo_ItemInventory: []
 --- !u!136 &7207481741990319695
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -185,7 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1d596d042421b4897e7d1f6be9d5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canPickUp: 0
   PickUpScreen: {fileID: 0}
   PickUpText: {fileID: 0}
   spawner: {fileID: 3972811807718577495}
@@ -199,8 +194,13 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   itemPrefabs:
+  - {fileID: 1516484272849177785, guid: 61927ac7dd7b6e2488d493bf461fce7f, type: 3}
+  - {fileID: 8998166946518165824, guid: c243a9db4898c7446b9c8bf6f952da8f, type: 3}
+  - {fileID: 7410905149685920187, guid: c2e0fc9a208274347befc0ad4999039e, type: 3}
   - {fileID: 3140475668916641710, guid: bbb598ceb228b6e4ca3164cb4fde9bcf, type: 3}
+  - {fileID: 4484893421403244602, guid: 8a37753d50d197c44832b4b1997d714f, type: 3}
   - {fileID: 3140475668916641710, guid: d9569fa6bd3908c4cb9453888d226045, type: 3}
+  - {fileID: 9111142867993881228, guid: 27eb4b5377281c94698079b9cb315b15, type: 3}
 --- !u!1 &7207481742380354693
 GameObject:
   m_ObjectHideFlags: 0

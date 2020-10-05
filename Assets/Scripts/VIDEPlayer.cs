@@ -14,6 +14,8 @@ public class VIDEPlayer : MonoBehaviour
     public AudioManager audioManager;
     private string nameNPC;
 
+
+
     //Stored current VA when inside a trigger
     public VIDE_Assign inTrigger;
 
