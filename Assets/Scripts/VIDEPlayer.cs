@@ -53,7 +53,6 @@ public class VIDEPlayer : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(satisfiedNPCCount);
 
         if (intro)
         {
@@ -112,6 +111,7 @@ public class VIDEPlayer : MonoBehaviour
     void Win()
     {
         VD.EndDialogue();
+        audioManager.Play("Success");
         winDialogue.overrideStartNode = 8;
         diagUI.Begin(winDialogue);
     }
@@ -137,6 +137,7 @@ public class VIDEPlayer : MonoBehaviour
         if (inTrigger)
         {
             diagUI.Interact(inTrigger);
+            
 
             if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC)
             {

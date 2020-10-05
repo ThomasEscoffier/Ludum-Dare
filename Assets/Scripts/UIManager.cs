@@ -72,6 +72,7 @@ public class UIManager : MonoBehaviour
         if (!VD.isActive)
         {
             Begin(dialogue);
+            player.audioManager.Play("Talk");
         }
         else
         {

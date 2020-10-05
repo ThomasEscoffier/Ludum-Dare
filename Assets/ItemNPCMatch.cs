@@ -67,6 +67,7 @@ public class ItemNPCMatch : MonoBehaviour
 
     void Success()
     {
+        player.audioManager.Play("Success");
         dialogue.overrideStartNode = winNode;
         diagUI.Begin(dialogue);
         //Debug.Log(VD.GetNodeCount(false));
@@ -79,7 +80,7 @@ public class ItemNPCMatch : MonoBehaviour
 
     void Fail()
     {
-
+        player.audioManager.Play("Fail");
         dialogue.overrideStartNode = loseNode;
         diagUI.Begin(dialogue);
         satisfied = false;

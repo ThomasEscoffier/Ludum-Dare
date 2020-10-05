@@ -45,10 +45,14 @@ public class AudioManager : MonoBehaviour
     {
         if (SceneNumber == 0)
         {
-            Play("Intro");
-        }else if (SceneNumber >= 1)
+            Play("GOD");
+        }else if (SceneNumber == 1)
         {
             Play("Theme");
+        }
+        else if (SceneNumber == 2)
+        {
+            Play("GOD");
         }
     }
 
