@@ -24406,7 +24406,7 @@ MonoBehaviour:
   m_playerLayer:
     serializedVersion: 2
     m_Bits: 512
-  m_target: {fileID: 0}
+  m_target: {fileID: 1252406137807367588}
   m_entity: {fileID: 579502547510332182}
   m_checkRadius: 5
   m_rotSpeed: 7
@@ -32743,7 +32743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 21
   loseNode: 3
   winNode: 6
@@ -32762,7 +32762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 15
   loseNode: 1
   winNode: 5
@@ -32781,7 +32781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 15
   loseNode: 2
   winNode: 6
@@ -32800,7 +32800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 15
   loseNode: 1
   winNode: 4
@@ -32819,7 +32819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 20
   loseNode: 2
   winNode: 5
@@ -32838,7 +32838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 11
   loseNode: 1
   winNode: 4
@@ -32857,7 +32857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 13
   loseNode: 4
   winNode: 5
@@ -32876,7 +32876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 2
   loseNode: 4
   winNode: 7
@@ -34629,7 +34629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259c95c5080cac84e83f028498d8ea2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagUI: {fileID: 0}
+  diagUI: {fileID: 371340202}
   NPC_ID: 5
   loseNode: 2
   winNode: 4
@@ -35246,7 +35246,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8050076573654440165}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.49999997, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 8050076573880191255}

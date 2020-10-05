@@ -1572,7 +1572,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: UNLOOP
+  m_Text: UNLOOP THEM
 --- !u!222 &802644352
 CanvasRenderer:
   m_ObjectHideFlags: 0
