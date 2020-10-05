@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.3</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2020.1.6f1</UnityVersion>
@@ -87,13 +88,6 @@
     <Compile Include="Assets\PickUpSystem.cs" />
     <Compile Include="Assets\Scripts\VIDEPlayer.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-<<<<<<< Updated upstream
-=======
-    <Compile Include="Assets\Scripts\Items.cs" />
-    <Compile Include="Assets\ItemNPCMatch.cs" />
-    <Compile Include="Assets\ItemDisplay.cs" />
-    <Compile Include="Assets\PickUpSystem.cs" />
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />

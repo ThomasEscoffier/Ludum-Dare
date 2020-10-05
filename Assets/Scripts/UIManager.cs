@@ -313,16 +313,16 @@ public class UIManager : MonoBehaviour
 
                         //If it's CrazyCap, check his stock before continuing
                         //If out of stock, change override start node
-                        if (VD.assigned.alias == "CrazyCap")
-                            if ((int)data.extraVars["item"] + 1 >= player.demo_Items.Count)
-                                VD.assigned.overrideStartNode = 28;
+                        //if (VD.assigned.alias == "CrazyCap")
+                        //    if ((int)data.extraVars["item"] + 1 >= player.demo_Items.Count)
+                        //        VD.assigned.overrideStartNode = 28;
 
 
-                        if (!player.demo_ItemInventory.Contains(player.demo_Items[(int)data.extraVars["item"]]))
-                        {
-                            GiveItem((int)data.extraVars["item"]);
-                            return true;
-                        }
+                        //if (!player.demo_ItemInventory.Contains(player.demo_Items[(int)data.extraVars["item"]]))
+                        //{
+                        //    GiveItem((int)data.extraVars["item"]);
+                        //    return true;
+                        //}
                     }
                 }
             }
@@ -347,11 +347,11 @@ public class UIManager : MonoBehaviour
             //Get the item from CrazyCap to trigger this one on Charlie
             if (dialogue.alias == "Charlie")
             {
-                if (player.demo_ItemInventory.Count > 0 && dialogue.overrideStartNode == -1)
-                {
-                    dialogue.overrideStartNode = 16;
-                    return false;
-                }
+                //if (player.demo_ItemInventory.Count > 0 && dialogue.overrideStartNode == -1)
+                //{
+                //    dialogue.overrideStartNode = 16;
+                //    return false;
+                //}
             }
         }
         return false;
@@ -391,8 +391,8 @@ public class UIManager : MonoBehaviour
         if (data.comments[data.commentIndex].Contains("[NAME]"))
             data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[NAME]", VD.assigned.gameObject.name);
 
-        if (data.comments[data.commentIndex].Contains("[WEAPON]"))
-            data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[WEAPON]", player.demo_ItemInventory[0].ToLower());
+        //if (data.comments[data.commentIndex].Contains("[WEAPON]"))
+        //    data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[WEAPON]", player.demo_ItemInventory[0].ToLower());
     }
 
     #endregion
@@ -415,10 +415,10 @@ public class UIManager : MonoBehaviour
     //Adds item to demo inventory, shows item popup, and pauses dialogue
     void GiveItem(int itemIndex)
     {
-        player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
+        //player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
         itemPopUp.SetActive(true);
-        string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
-        itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
+        //string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
+        //itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
         dialoguePaused = true;
     }
 
@@ -462,10 +462,10 @@ public class UIManager : MonoBehaviour
     //Check task progression
     void CheckTasks()
     {
-        if (player.demo_ItemInventory.Count == 5)
-            QuestChartDemo.SetQuest(2, false);
+        //if (player.demo_ItemInventory.Count == 5)
+        //    QuestChartDemo.SetQuest(2, false);
 
-        QuestChartDemo.CheckTaskCompletion(VD.nodeData);
+        //QuestChartDemo.CheckTaskCompletion(VD.nodeData);
     }
 
     #endregion

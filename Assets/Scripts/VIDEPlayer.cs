@@ -12,8 +12,6 @@ public class VIDEPlayer : MonoBehaviour
     //Reference to our diagUI script for quick access
     public UIManager diagUI;
     public AudioManager audioManager;
-    public QuestChartDemo questUI;
-    public Animator blue;
     private string nameNPC;
 
     //Stored current VA when inside a trigger
@@ -21,9 +19,6 @@ public class VIDEPlayer : MonoBehaviour
 
     //DEMO variables for item inventory
     //Crazy cap NPC in the demo has items you can collect
-    public List<string> demo_Items = new List<string>();
-    public List<string> demo_ItemInventory = new List<string>();
-    
 
     void OnTriggerEnter(Collider other)
     {
@@ -107,33 +102,32 @@ public class VIDEPlayer : MonoBehaviour
 
         /* If we are not in a trigger, try with raycasts */
 
-        RaycastHit rHit;
+        //RaycastHit rHit;
 
-        if (Physics.Raycast(transform.position, transform.forward, out rHit, 2))
-        {
-            //Lets grab the NPC's VIDE_Assign script, if there's any
-            VIDE_Assign assigned;
-            if (rHit.collider.GetComponent<VIDE_Assign>() != null)
-                assigned = rHit.collider.GetComponent<VIDE_Assign>();
-            else return;
+        //if (Physics.Raycast(transform.position, transform.forward, out rHit, 2))
+        //{
+        //    //Lets grab the NPC's VIDE_Assign script, if there's any
+        //    VIDE_Assign assigned;
+        //    if (rHit.collider.GetComponent<VIDE_Assign>() != null)
+        //        assigned = rHit.collider.GetComponent<VIDE_Assign>();
+        //    else return;
 
-            if (assigned.alias == "QuestUI")
-            {
-                if(questUI != null)
-                    questUI.Interact(); //Begins interaction with Quest Chart
-            } else
-            {
-                diagUI.Interact(assigned); //Begins interaction
-            }
+        //    if (assigned.alias == "QuestUI")
+        //    {
 
-            if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
-            {
-                StartCoroutine(audioManager.Crossfade(nameNPC));
-            }
-            else if(audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
-            {
-                audioManager.Play(nameNPC);
-            }
-        }
+        //    } else
+        //    {
+        //        diagUI.Interact(assigned); //Begins interaction
+        //    }
+
+        //    if (audioManager.musicPlayingName != null && audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+        //    {
+        //        StartCoroutine(audioManager.Crossfade(nameNPC));
+        //    }
+        //    else if(audioManager.musicPlayingName != nameNPC && VD.isActive && nameNPC != null)
+        //    {
+        //        audioManager.Play(nameNPC);
+        //    }
+        //}
     }
 }
