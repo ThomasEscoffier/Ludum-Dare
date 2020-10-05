@@ -1661,23 +1661,19 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'A game by Baked Potatoes
 
-    
 
     Game Design by Towstee
 
-    
 
     Programming
     by Towstee and Busldii
 
-    
 
     Music & Sound Design by Saltea
 
-    
 
-    Art
-    by Saltea and Busldii'
+    Art by Saltea
+    and Busldii'
 --- !u!222 &1768292548
 CanvasRenderer:
   m_ObjectHideFlags: 0
