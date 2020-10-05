@@ -43,10 +43,14 @@ public class UI_MainMenu : MonoBehaviour
     }
     public void F_HighQ()
     {
-        QualitySettings.SetQualityLevel(3, m_isFullscreen);
+        QualitySettings.SetQualityLevel(2, m_isFullscreen);
     }
     public void F_LowQ()
     {
         QualitySettings.SetQualityLevel(1, m_isFullscreen);
+    }
+    public void F_BackToMain()
+    {
+        SceneManager.LoadScene(m_nextScene);
     }
 }
